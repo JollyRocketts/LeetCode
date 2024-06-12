@@ -6,7 +6,7 @@ class Solution:
         l = 0
         m = 0
         r = len(nums) - 1
-        while m<= r:
+        while m <= r:
             if nums[m] == 0:
                 nums[l], nums[m] = nums[m], nums[l]
                 l += 1
