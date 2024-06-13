@@ -25,6 +25,7 @@ class Solution:
                 l1 = nums1[mid1 - 1]
             if mid2 - 1 >= 0:
                 l2 = nums2[mid2 - 1]
+                
             if l1 <= r2 and l2 <= r1:
                 if n % 2 == 1:
                     return max(l1, l2)
