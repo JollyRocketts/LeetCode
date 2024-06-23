@@ -1,5 +1,4 @@
 from collections import Counter
 class Solution:
     def maxFrequencyElements(self, nums: List[int]) -> int:
-        c = Counter(nums).values()
-        return max(Counter(c))*Counter(c)[max(Counter(c))]
+        return max(Counter(Counter(nums).values()))*Counter(Counter(nums).values())[max(Counter(Counter(nums).values()))]
