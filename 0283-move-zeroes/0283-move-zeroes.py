@@ -4,6 +4,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        for i in range(Counter(nums)[0]):
+        c = Counter(nums)[0]
+        for i in range(c):
             nums.remove(0)
             nums.append(0)
