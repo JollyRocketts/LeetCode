@@ -9,8 +9,8 @@ class Solution:
         #     nums.append(0)
         i = 0
         j = 0
-        
-        while j < len(nums) and i<len(nums):
+        l = len(nums)
+        while j < l and i < l:
             if nums[i] == 0:
                 nums.append(0)
                 nums.pop(i)
