@@ -1,10 +1,10 @@
 from collections import Counter
 class Solution:
     def maximumImportance(self, n: int, roads: List[List[int]]) -> int:
-        # l = []
-        # for i in roads:
-        #     l.extend(i)
-        l = [j for i in roads for j in i]
+        l = []
+        for i in roads:
+            l.extend(i)
+        #l = [j for i in roads for j in i]
         tot = 0
         v = list(Counter(l).values())
         v.sort(reverse = True)
