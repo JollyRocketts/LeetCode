@@ -5,7 +5,7 @@ class Solution:
         for i in s:
             if i == "|":
                 flag ^= 1
-            if flag == True and i == "*":
+            if flag == 1 and i == "*":
                 tot += 1
         
         return tot
