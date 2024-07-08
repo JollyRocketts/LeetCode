@@ -38,12 +38,5 @@ class Solution:
             #print("\n")
             if k%nu-1 > 0:
                 l = rotate(l, nu-1, k%nu-1)
-            
-            '''if (k//(nu-1))%2 == 0:
-                l.pop(k%(nu-1)-1)
-                l = rotate(0, nu-1, k%(nu-1)-1)
-            else:
-                l.pop(nu-k%(nu-1)-2)
-                l = rotate(0, nu-1, nu-k%(nu-1)-2)
-               ''' 
+                
         return l[0]
