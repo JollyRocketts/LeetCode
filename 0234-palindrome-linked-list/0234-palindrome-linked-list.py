@@ -14,8 +14,8 @@ class Solution:
         if len(temp) == 1:
             return True
         
-        print(temp[:len(temp)//2])
-        print(temp[-1:-len(temp)//2-1:-1])
+        # print(temp[:len(temp)//2])
+        # print(temp[-1:-len(temp)//2-1:-1])
         if temp[:len(temp)//2] == temp[-1:-(len(temp)//2)-1:-1]:
             return True
         else:
