@@ -1,7 +1,7 @@
 class Solution:
     def findMiddleIndex(self, nums: List[int]) -> int:
-        if len(nums) == 1:
-            return 0
+#         if len(nums) == 1:
+#             return 0
         
         l = 0
         # r = len(nums)-1
