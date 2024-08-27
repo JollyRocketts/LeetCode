@@ -1,5 +1,6 @@
 class Solution:
     def maxScore(self, s: str) -> int:
+        
         def left(s):
             score = 0
             for i in s:
